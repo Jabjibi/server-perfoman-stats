@@ -50,29 +50,43 @@ sudo ./server-stats.sh
 
 ## Sample Output
 ```
-CPU Usage: 12.3%
-Memory Usage: Used: 3.4GB / Free: 2.6GB / Total: 6GB (Percentage: 56%)
-Disk Usage:
-  /dev/sda1 Used: 20GB / Free: 80GB (Percentage: 20%)
-Top 5 CPU Processes:
-  1. systemd           5.4%
-  2. apache2            4.3%
-  3. mysql              2.1%
-  4. bash               1.3%
-  5. sshd               0.9%
-Top 5 Memory Processes:
-  1. apache2            1.5GB
-  2. mysql              1.1GB
-  3. systemd            0.8GB
-  4. bash               0.5GB
-  5. sshd               0.3GB
-OS Version: Ubuntu 20.04.3 LTS
-Uptime: up 5 hours, 23 minutes
-Logged in Users:
-  user1   pts/0        2021-08-27 10:30
-  user2   pts/1        2021-08-27 10:35
-Failed Login Attempts:
-  user3  Wed Aug 27 10:22
+การใช้งาน CPU:
+การใช้งาน CPU: 0.6%
+การใช้หน่วยความจำ:
+ใช้: 606Mi / ว่าง: 6.3Gi / รวม: 7.4Gi (เปอร์เซ็นต์: 8189.19%)
+การใช้ดิสก์:
+none ใช้: 0 / ว่าง: 3.7G (เปอร์เซ็นต์: 0%)
+none ใช้: 4.0K / ว่าง: 3.7G (เปอร์เซ็นต์: 1%)
+drivers ใช้: 158G / ว่าง: 319G (เปอร์เซ็นต์: 34%)
+/dev/sdd ใช้: 1.3G / ว่าง: 955G (เปอร์เซ็นต์: 1%)
+none ใช้: 76K / ว่าง: 3.7G (เปอร์เซ็นต์: 1%)
+none ใช้: 0 / ว่าง: 3.7G (เปอร์เซ็นต์: 0%)
+rootfs ใช้: 2.7M / ว่าง: 3.7G (เปอร์เซ็นต์: 1%)
+none ใช้: 548K / ว่าง: 3.7G (เปอร์เซ็นต์: 1%)
+none ใช้: 0 / ว่าง: 3.7G (เปอร์เซ็นต์: 0%)
+none ใช้: 0 / ว่าง: 3.7G (เปอร์เซ็นต์: 0%)
+none ใช้: 100K / ว่าง: 3.7G (เปอร์เซ็นต์: 1%)
+none ใช้: 100K / ว่าง: 3.7G (เปอร์เซ็นต์: 1%)
+C:\ ใช้: 158G / ว่าง: 319G (เปอร์เซ็นต์: 34%)
+5 กระบวนการยอดนิยมตามการใช้งาน CPU:
+    687 (udev-worker)    0.4
+      1 systemd          0.1
+    106 systemd-udevd    0.0
+     52 systemd-journal  0.0
+    501 systemd          0.0
+5 กระบวนการยอดนิยมตามการใช้งานหน่วยความจำ:
+    230 unattended-upgr  0.2
+     52 systemd-journal  0.2
+      1 systemd          0.1
+    119 systemd-resolve  0.1
+    202 wsl-pro-service  0.1
+เวอร์ชันของระบบปฏิบัติการ:
+6.6.87.2-microsoft-standard-WSL2
+เวลาทำงานของเซิร์ฟเวอร์:
+up 6 minutes
+ผู้ใช้ที่เข้าสู่ระบบ:
+anapon   pts/1        2025-08-27 17:17
+ความพยายามเข้าสู่ระบบที่ล้มเหลว:
 ```
 
 ## Troubleshooting
